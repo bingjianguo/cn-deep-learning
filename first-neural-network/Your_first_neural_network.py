@@ -321,9 +321,9 @@ unittest.TextTestRunner().run(suite)
 import sys
 
 ### Set the hyperparameters here ###
-iterations = 400
+iterations = 5000
 learning_rate = 0.5
-hidden_nodes = 10
+hidden_nodes = 20
 output_nodes = 1
 
 N_i = train_features.shape[1]
@@ -386,7 +386,22 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 # #### 请将你的答案填写在下方
 # 
 
-# In[ ]:
+# In[15]:
 
 从图中得，后半部分拟合没有前面拟合的效果好，hidden_nodes值不适合取得过大，iterations取得再大也没啥效果了。
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
 
